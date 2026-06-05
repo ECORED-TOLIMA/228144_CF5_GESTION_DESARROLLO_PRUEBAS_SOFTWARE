@@ -259,7 +259,7 @@
               p.mb-0(data-aos="fade-down") Además de su clasificación básica, los algoritmos pueden analizarse desde diferentes enfoques que permiten comprender mejor su comportamiento, eficiencia y aplicabilidad en la resolución de problemas. Esta ampliación facilita seleccionar la estructura más adecuada según el contexto y los requerimientos planteados.
         p.mb-4(data-aos="fade-down") Desde el punto de vista de su comportamiento y diseño, los algoritmos también pueden clasificarse de la siguiente manera:
     .row.BG01.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
-      .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
+      .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
           .row(numero="1" titulo="Algoritmos determinísticos")
             .col-12.mb-4.mb-md-0
@@ -279,7 +279,7 @@
           //- .row(numero="6" titulo="Algoritmos recursivos")
           //-   .col-12.mb-4.mb-md-0
           //-     p.mb-0 Abordan problemas dividiéndolos en subproblemas similares, utilizando llamadas a sí mismos hasta llegar a un caso base.
-      .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+      .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img38.png', alt='Imagen decorativa')
     p.mb-4(data-aos="fade-down") Asimismo, desde el enfoque de su implementación, es importante considerar:

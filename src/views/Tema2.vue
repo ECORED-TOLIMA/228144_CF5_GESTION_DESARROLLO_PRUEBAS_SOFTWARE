@@ -177,7 +177,7 @@
         p.mb-0(data-aos="fade-down") A diferencia de otras formas de notación, los diagramas de flujo utilizan símbolos estandarizados que permiten interpretar fácilmente el comportamiento del algoritmo, independientemente del lenguaje de programación que se utilice posteriormente. Su aplicación es especialmente útil en etapas de análisis y diseño, ya que permite identificar errores lógicos y mejorar la organización de la solución.
     p.mb-4(data-aos="fade-down") Para garantizar una correcta representación, es necesario utilizar elementos gráficos que definan cada parte del proceso. Entre los más utilizados se encuentran:
     .row.BG01.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
-      .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
+      .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
           .row(numero="1" titulo="Inicio y fin")
             .col-12.mb-4.mb-md-0
@@ -196,8 +196,8 @@
               p.mb-0 Conectan los símbolos y muestran la dirección del proceso.
           .row(numero="6" titulo="Conectores")
             .col-12.mb-4.mb-md-0
-              p.mb-0 facilitan la continuidad del diagrama cuando este se extiende o se divide.
-      .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+              p.mb-0 Facilitan la continuidad del diagrama cuando este se extiende o se divide.
+      .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema2/img16.png', alt='Imagen decorativa')
     .row.justify-content-center.mb-4

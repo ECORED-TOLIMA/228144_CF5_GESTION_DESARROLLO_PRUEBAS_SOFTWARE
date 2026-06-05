@@ -90,7 +90,7 @@
       .col.col-12
         p.mb-0(data-aos="fade-down") Para garantizar un uso adecuado, es importante tener en cuenta las siguientes consideraciones:
     .row.BG01.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
-      .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
+      .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
           .row(numero="A" titulo="Identificadores")
             .col-12.mb-4.mb-md-0
@@ -107,7 +107,7 @@
           .row(numero="E" titulo="Consistencia")
             .col-12.mb-4.mb-md-0
               p.mb-0 Mantener un estilo uniforme en la escritura de identificadores a lo largo del código.
-      .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+      .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema3/img12.png', alt='Imagen decorativa')
     .row.justify-content-center.mb-0
@@ -305,7 +305,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/v4yGWb55qkk?si=mG38oNRpou4Eg21C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/VBffPGz3gY4?si=vZCaCanTBr-PsSlP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.4 Operadores y jerarquía de operadores

@@ -146,10 +146,10 @@
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") Permiten ejecutar un conjunto de instrucciones varias veces, de acuerdo con una condición o un número determinado de repeticiones. Estas estructuras son esenciales en la programación, ya que facilitan la automatización de procesos y evitan la repetición innecesaria de código, haciendo las soluciones más eficientes y organizadas.
         .cajon.cajon.C01.color-primario.p-4.mb-4
-          p.mb-0(data-aos="fade-down") Su aplicación es fundamental cuando se requiere procesar datos de forma continua, realizar cálculos repetitivos o recorrer conjuntos de información. A través de estructuras como for y while, el algoritmo puede controlar la cantidad de veces que se ejecuta un bloque de instrucciones, garantizando precisión en el resultado.
+          p.mb-0(data-aos="fade-down") Su aplicación es fundamental cuando se requiere procesar datos de forma continua, realizar cálculos repetitivos o recorrer conjuntos de información. A través de estructuras como <em>for y while</em>, el algoritmo puede controlar la cantidad de veces que se ejecuta un bloque de instrucciones, garantizando precisión en el resultado.
         p.mb-0(data-aos="fade-down") Las actividades principales en el uso de estructuras de iteración son:
     .row.BG01.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
-      .col-lg-5.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0
+      .col-lg-6.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
           .row(numero="1" titulo="Definición de la condición")
             .col-12.mb-4.mb-md-0

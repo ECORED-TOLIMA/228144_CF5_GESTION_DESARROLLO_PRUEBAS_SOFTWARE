@@ -17,7 +17,7 @@
       .col.col-lg-12.col-12
         p.mb-0(data-aos="fade-down") Para garantizar una adecuada aplicación de este enfoque, se deben seguir los siguientes pasos:
     .row.BG01.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
-      .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
+      .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
           .row(numero="A" titulo="Definición de módulos")
             .col-12.mb-4.mb-md-0
@@ -34,7 +34,7 @@
           .row(numero="E" titulo="Validación de resultados")
             .col-12.mb-4.mb-md-0
               p.mb-0 Comprobar que las salidas generadas por el algoritmo corresponden a los resultados esperados y cumplen con los objetivos planteados.
-      .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+      .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema5/img02.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-0
@@ -133,10 +133,10 @@
           li
             i.fas.fa-cloud-arrow-down
             p.mb-0 Reducir errores al trabajar de forma independiente sobre cada módulo.
-        p.mb-0(data-aos="fade-down") El proceso para definir las características funcionales de los módulos es el siguiente:
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure.mb-0
           img(src='@/assets/curso/tema5/img08.svg', alt='Imagen decorativa')
+    p.mb-4(data-aos="fade-down") El proceso para definir las características funcionales de los módulos es el siguiente:
     .row.BG01.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
       .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
@@ -344,7 +344,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/3bbIQeEBAgE?si=GAlKlELXvPG3yR68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/HPzMCrXhrf0?si=LOm_1GUptF-s1lZm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.4 Parámetros de entrada y salida en los módulos
