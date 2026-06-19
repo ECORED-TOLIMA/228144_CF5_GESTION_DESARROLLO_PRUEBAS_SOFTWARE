@@ -171,15 +171,14 @@
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3 Tipos de datos (enteros, reales, booleanos)
-    p.mb-4(data-aos="fade-down") Los tipos de datos constituyen un elemento fundamental en la programación, ya que permiten definir la naturaleza de la información que será almacenada, procesada y manipulada dentro de un algoritmo o programa. Su correcta selección garantiza coherencia en las operaciones, evita errores y optimiza el uso de los recursos del sistema.
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema3/img16.jpg', alt='Imagen decorativa')
       .col.col-lg-8.col-12.order-lg-1.order-2
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p.mb-0(data-aos="fade-down") En términos generales, los tipos de datos determinan qué tipo de valores puede contener una variable y qué operaciones pueden realizarse sobre ella. Esto permite que el programa interprete correctamente la información y ejecute las instrucciones de manera adecuada.
-        p.mb-0(data-aos="fade-down") A diferencia de otros elementos de la programación, los tipos de datos no solo organizan la información, sino que también influyen directamente en el comportamiento del algoritmo, especialmente en operaciones matemáticas, comparaciones y toma de decisiones.
+          p.mb-0(data-aos="fade-down") Los tipos de datos permiten clasificar la información que será utilizada dentro de un algoritmo o programa. Su función es definir la naturaleza de los valores que se almacenan y procesan, facilitando la realización de operaciones y garantizando la coherencia de los resultados obtenidos.
+        p.mb-0(data-aos="fade-down") La identificación adecuada del tipo de dato es fundamental para representar correctamente la información y evitar errores durante el procesamiento. Cada tipo de dato posee características particulares que determinan la forma en que puede utilizarse dentro de una solución computacional.
     .row.justify-content-center.mb-4
       .col.col-12.col-lg-12
         .row.align-items-center.mb-4(data-aos="flip-down")
@@ -204,38 +203,25 @@
                     th(data-aos="fade-down")(style= "width: 35%") Ejemplo
                 tbody
                   tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Entero (int)
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa números sin decimales.
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Entero
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa números sin parte decimal.
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") 10, -5, 0
                   tr
-                    td(data-aos="fade-down") Real (float/double)
-                    td(data-aos="fade-down") Representa números con decimales.
-                    td(data-aos="fade-down") 3.14, -2.5
+                    td(data-aos="fade-down") Real
+                    td(data-aos="fade-down") Representa números que contienen parte decimal.
+                    td(data-aos="fade-down") 3,14; -2,5
                   tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Booleano (bool)
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa valores lógicos.
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Verdadero / Falso
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Booleano
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa valores lógicos utilizados para evaluar condiciones.
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Verdadero, Falso
                   tr
-                    td(data-aos="fade-down") Carácter (char)
-                    td(data-aos="fade-down") Representa un solo símbolo.
-                    td(data-aos="fade-down") 'A', '9'
+                    td(data-aos="fade-down") Carácter
+                    td(data-aos="fade-down") Representa un único símbolo, letra o número.
+                    td(data-aos="fade-down") A, 5, %
                   tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Cadena (string)
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa texto o conjunto de caracteres.
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") "Hola mundo"
-        p.mb-4(data-aos="fade-down") Para un mejor entendimiento de esta clasificación de datos, se representan de la siguiente manera:
-        .row.justify-content-center.mb-4(data-aos="flip-up")
-          .col.col-12
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 2.
-              span Representación de la clasificación de tipos de datos
-          .row.justify-content-center
-            .col-12
-              figure.desktop
-                img(src='@/assets/curso/tema3/img17.svg', alt='Figura 2 que muestra un esquema jerárquico de la clasificación de los tipos de datos, diferenciando entre tipos primitivos y no primitivos. En los tipos primitivos se incluyen los no numéricos, como bool y char, y los numéricos, que se subdividen en enteros (byte, short, int y long) y de punto flotante (float y double). Asimismo, se presentan los tipos no primitivos, como clases, cadenas de texto (string), arreglos (arrays), objetos (objects) e interfaces, organizados de forma estructurada para facilitar su comprensión.')
-          .col-12
-            figure.movil
-              img(src='@/assets/curso/tema3/img18.svg', alt='Figura 2 que muestra un esquema jerárquico de la clasificación de los tipos de datos, diferenciando entre tipos primitivos y no primitivos. En los tipos primitivos se incluyen los no numéricos, como bool y char, y los numéricos, que se subdividen en enteros (byte, short, int y long) y de punto flotante (float y double). Asimismo, se presentan los tipos no primitivos, como clases, cadenas de texto (string), arreglos (arrays), objetos (objects) e interfaces, organizados de forma estructurada para facilitar su comprensión.')
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Cadena
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa un conjunto de caracteres o texto.
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Hola mundo
     .row.justify-content-center.align-items-strench.mb-4
       .col-lg-9.col-12.order-lg-2.order-2
         .row.justify-content-center.mb-4
@@ -247,33 +233,33 @@
               .col-lg-auto.col-9.titulo01(style="z-index:1")
                 .p-2
                   h3.mb-0.ms-lg-1.ms-3 Características de los tipos de datos
-        p.mb-4(data-aos="fade-down") Cada tipo de dato posee características específicas que determinan su uso dentro de un algoritmo:
+        p.mb-4(data-aos="fade-down") Cada tipo de dato cumple una función específica dentro de los algoritmos:
         ol.lista-ol--cuadro.lista-ol--separador.mb-0
           li
             .lista-ol--cuadro__vineta
               span.text-bold 1
-            p.mb-0 <b>Tipo entero</b>: se utiliza cuando no se requieren decimales, facilitando cálculos simples y conteos.
+            p.mb-0 <b>Entero</b>: utilizado para conteos, cantidades y operaciones que no requieren decimales.
           li
             .lista-ol--cuadro__vineta
               span.text-bold 2
-            p.mb-0 <b>Tipo real</b>: permite mayor precisión en cálculos matemáticos, especialmente en operaciones científicas o financieras.
+            p.mb-0 <b>Real</b>: empleado en cálculos que requieren precisión decimal.
           li
             .lista-ol--cuadro__vineta
               span.text-bold 3
-            p.mb-0 <b>Tipo booleano</b>: es fundamental en estructuras condicionales, ya que permite evaluar condiciones lógicas.
+            p.mb-0 <b>Booleano</b>: utilizado en la evaluación de condiciones y toma de decisiones.
           li
             .lista-ol--cuadro__vineta
               span.text-bold 4
-            p.mb-0 <b>Tipo carácter</b>: se utiliza para representar símbolos individuales dentro del programa.
+            p.mb-0 <b>Carácter</b>: permite representar símbolos individuales.
           li
             .lista-ol--cuadro__vineta
               span.text-bold 5
-            p.mb-0 <b>Tipo cadena</b>: permite manejar textos completos, facilitando la interacción con el usuario.
+            p.mb-0 <b>Cadena</b>: facilita el manejo de palabras, frases y mensajes.
       .col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure.mb-0
           img(src='@/assets/curso/tema3/img19.jpg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-strench.mb-4
-      .col-lg-8.col-12.order-lg-1.order-2
+      .col-lg-6.col-12.order-lg-1.order-2
         .row.justify-content-center.mb-4
           .col.col-12
             .row.align-items-center(data-aos="flip-down")
@@ -283,21 +269,24 @@
               .col-lg-auto.col-9.titulo01(style="z-index:1")
                 .p-2
                   h3.mb-0.ms-lg-1.ms-3 Importancia del uso adecuado de tipos de datos
-        p.mb-4(data-aos="fade-down") El uso correcto de los tipos de datos permite:
-        ul.lista-ul--color.mt-4(data-aos="fade-down")
+        p.mb-3(data-aos="fade-down") La correcta selección de los tipos de datos permite:
+        ul.lista-ul--color(data-aos="fade-down")
           li
             i.fas.fa-cloud-arrow-down
-            p.mb-0 Evitar errores en operaciones matemáticas o lógicas.
+            p.mb-0 Representar adecuadamente la información.
           li
             i.fas.fa-cloud-arrow-down
-            p.mb-0 Optimizar el uso de memoria del sistema.
+            p.mb-0 Evitar errores durante el procesamiento.
           li
             i.fas.fa-cloud-arrow-down
-            p.mb-0 Garantizar la coherencia en el procesamiento de información.
+            p.mb-0 Optimizar el uso de recursos.
           li
             i.fas.fa-cloud-arrow-down
-            p.mb-0 Facilitar la comprensión y mantenimiento del código.
-        p.mb-0(data-aos="fade-down") Como complemento a los conceptos abordados de tipología de datos, se recomienda revisar el siguiente video, en el cual se muestra la ejecución de un algoritmo básico que ejemplifica la definición de variables, la asignación de valores y la visualización de resultados, facilitando la comprensión práctica del uso de distintos tipos de datos dentro de un programa:   
+            p.mb-0 Facilitar la comprensión y mantenimiento de los algoritmos.
+          li
+            i.fas.fa-cloud-arrow-down
+            p.mb-0 Mejorar la calidad de las soluciones desarrolladas.
+        p.mb-0(data-aos="fade-down") Como complemento a los conceptos abordados sobre tipos de datos, se recomienda revisar el siguiente video, donde se presenta un algoritmo básico que ejemplifica la definición de variables, la asignación de valores y la presentación de resultados, favoreciendo la comprensión práctica del uso de distintos tipos de datos dentro de un programa:
       .col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure.mb-0
           img(src='@/assets/curso/tema3/img20.svg', alt='Imagen decorativa')
