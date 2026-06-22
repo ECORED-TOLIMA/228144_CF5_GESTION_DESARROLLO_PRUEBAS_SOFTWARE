@@ -120,7 +120,8 @@ export default {
           { numero: '4.2', titulo: 'Estructuras condicionales', hash: 't_4_2' },
           {
             numero: '4.3',
-            titulo: 'Estructuras de iteración o repetitivas (for, while)',
+            titulo:
+              'Estructuras de iteración o repetitivas (<em>for, while</em>)',
             hash: 't_4_3',
           },
           {

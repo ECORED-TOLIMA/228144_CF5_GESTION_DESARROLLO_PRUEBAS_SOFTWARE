@@ -120,7 +120,7 @@
           p.mb-0(data-aos="fade-down") La correcta implementación de estructuras condicionales permite desarrollar algoritmos más inteligentes y adaptativos, facilitando la resolución de problemas que requieren análisis, comparación y toma de decisiones dentro del proceso de programación.
     separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.3 Estructuras de iteración o repetitivas (for, while)
+      h2 4.3 Estructuras de iteración o repetitivas (<em>for, while</em>)
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
@@ -135,7 +135,7 @@
         LineaTiempoD.color-acento-botones.especial
           .row(numero="1" titulo="Definición de la condición")
             .col-12.mb-4.mb-md-0
-              p.mb-0 Consiste en establecer el criterio que controla la repetición del ciclo. Esta condición puede corresponder a una expresión lógica, como en las estructuras while, o a un rango definido de repeticiones, como ocurre en las estructuras for. En esta etapa también se realiza la inicialización de las variables de control necesarias para el funcionamiento del ciclo.
+              p.mb-0 Consiste en establecer el criterio que controla la repetición del ciclo. Esta condición puede corresponder a una expresión lógica, como en las estructuras <em>while</em>, o a un rango definido de repeticiones, como ocurre en las estructuras for. En esta etapa también se realiza la inicialización de las variables de control necesarias para el funcionamiento del ciclo.
           .row(numero="2" titulo="Ejecución del ciclo")
             .col-12.mb-4.mb-md-0
               p.mb-0 Corresponde al desarrollo de las instrucciones que se ejecutan de forma repetitiva durante cada iteración. En esta fase se realiza el procesamiento de datos y la aplicación de las operaciones definidas dentro del algoritmo.

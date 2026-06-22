@@ -299,7 +299,7 @@ export default {
         },
         {
           id: 16,
-          texto: '¿En qué caso se podría usar un ciclo while?',
+          texto: '¿En qué caso se podría usar un ciclo <em>while</em>?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
